@@ -82,3 +82,15 @@ main, .container{
 .main-img img{
     width: 100%;
 }
+/* menu icon*/
+.menu-icon{
+    display: none;
+}
+
+/*responsivo*/
+@media (max-width: 960px){
+    .menu-icon{
+        display: block;
+    }
+    
+}
